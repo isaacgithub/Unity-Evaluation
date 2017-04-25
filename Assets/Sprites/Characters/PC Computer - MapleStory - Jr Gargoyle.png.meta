@@ -1,0 +1,756 @@
+fileFormatVersion: 2
+guid: 82be18a3737971446992b196038af2e2
+timeCreated: 1493127973
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: PC Computer - MapleStory - Jr Gargoyle_0
+    21300002: PC Computer - MapleStory - Jr Gargoyle_1
+    21300004: PC Computer - MapleStory - Jr Gargoyle_2
+    21300006: PC Computer - MapleStory - Jr Gargoyle_3
+    21300008: PC Computer - MapleStory - Jr Gargoyle_4
+    21300010: PC Computer - MapleStory - Jr Gargoyle_5
+    21300012: PC Computer - MapleStory - Jr Gargoyle_6
+    21300014: PC Computer - MapleStory - Jr Gargoyle_7
+    21300016: PC Computer - MapleStory - Jr Gargoyle_8
+    21300018: PC Computer - MapleStory - Jr Gargoyle_9
+    21300020: PC Computer - MapleStory - Jr Gargoyle_10
+    21300022: PC Computer - MapleStory - Jr Gargoyle_11
+    21300024: PC Computer - MapleStory - Jr Gargoyle_12
+    21300026: PC Computer - MapleStory - Jr Gargoyle_13
+    21300028: PC Computer - MapleStory - Jr Gargoyle_14
+    21300030: PC Computer - MapleStory - Jr Gargoyle_15
+    21300032: PC Computer - MapleStory - Jr Gargoyle_16
+    21300034: PC Computer - MapleStory - Jr Gargoyle_17
+    21300036: PC Computer - MapleStory - Jr Gargoyle_18
+    21300038: PC Computer - MapleStory - Jr Gargoyle_19
+    21300040: PC Computer - MapleStory - Jr Gargoyle_20
+    21300042: PC Computer - MapleStory - Jr Gargoyle_21
+    21300044: PC Computer - MapleStory - Jr Gargoyle_22
+    21300046: PC Computer - MapleStory - Jr Gargoyle_23
+    21300048: PC Computer - MapleStory - Jr Gargoyle_24
+    21300050: PC Computer - MapleStory - Jr Gargoyle_25
+    21300052: PC Computer - MapleStory - Jr Gargoyle_26
+    21300054: PC Computer - MapleStory - Jr Gargoyle_27
+    21300056: PC Computer - MapleStory - Jr Gargoyle_28
+    21300058: PC Computer - MapleStory - Jr Gargoyle_29
+    21300060: PC Computer - MapleStory - Jr Gargoyle_30
+    21300062: PC Computer - MapleStory - Jr Gargoyle_31
+    21300064: PC Computer - MapleStory - Jr Gargoyle_32
+    21300066: PC Computer - MapleStory - Jr Gargoyle_33
+    21300068: PC Computer - MapleStory - Jr Gargoyle_34
+    21300070: PC Computer - MapleStory - Jr Gargoyle_35
+    21300072: PC Computer - MapleStory - Jr Gargoyle_36
+    21300074: PC Computer - MapleStory - Jr Gargoyle_37
+    21300076: PC Computer - MapleStory - Jr Gargoyle_38
+    21300078: PC Computer - MapleStory - Jr Gargoyle_39
+    21300080: PC Computer - MapleStory - Jr Gargoyle_40
+    21300082: PC Computer - MapleStory - Jr Gargoyle_41
+    21300084: PC Computer - MapleStory - Jr Gargoyle_42
+    21300086: PC Computer - MapleStory - Jr Gargoyle_43
+    21300088: PC Computer - MapleStory - Jr Gargoyle_44
+    21300090: PC Computer - MapleStory - Jr Gargoyle_45
+    21300092: PC Computer - MapleStory - Jr Gargoyle_46
+    21300094: PC Computer - MapleStory - Jr Gargoyle_47
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Jr Gargoyle_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 485
+        width: 76
+        height: 111
+      alignment: 9
+      pivot: {x: 0.098615736, y: 0.4515018}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Jr Gargoyle_1
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 485
+        width: 75
+        height: 75
+      alignment: 9
+      pivot: {x: 0.10921437, y: 0.6595044}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Jr Gargoyle_2
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 485
+        width: 87
+        height: 76
+      alignment: 9
+      pivot: {x: 0.101239085, y: 0.6574057}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Jr Gargoyle_3
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 485
+        width: 96
+        height: 90
+      alignment: 9
+      pivot: {x: 0.07631651, y: 0.5531677}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Jr Gargoyle_4
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 357
+        width: 76
+        height: 105
+      alignment: 9
+      pivot: {x: 0.10287586, y: 0.41638067}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Jr Gargoyle_5
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 357
+        width: 75
+        height: 69
+      alignment: 9
+      pivot: {x: 0.104897566, y: 0.6590594}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Jr Gargoyle_6
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 357
+        width: 87
+        height: 70
+      alignment: 9
+      pivot: {x: 0.102626756, y: 0.62542945}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Jr Gargoyle_7
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 357
+        width: 96
+        height: 84
+      alignment: 9
+      pivot: {x: 0.08843517, y: 0.5195985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Jr Gargoyle_8
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 252
+        width: 107
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Jr Gargoyle_9
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 242
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Jr Gargoyle_10
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 101
+        width: 76
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Jr Gargoyle_11
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 232
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Jr Gargoyle_12
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 236
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Jr Gargoyle_13
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 233
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Jr Gargoyle_14
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 234
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Jr Gargoyle_15
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 233
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Jr Gargoyle_16
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 227
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Jr Gargoyle_17
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 230
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Jr Gargoyle_18
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 230
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Jr Gargoyle_19
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 227
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Jr Gargoyle_20
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 223
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Jr Gargoyle_21
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 223
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Jr Gargoyle_22
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 217
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Jr Gargoyle_23
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 213
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Jr Gargoyle_24
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 101
+        width: 76
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Jr Gargoyle_25
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 216
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Jr Gargoyle_26
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 213
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Jr Gargoyle_27
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 212
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Jr Gargoyle_28
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 200
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Jr Gargoyle_29
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 200
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Jr Gargoyle_30
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 101
+        width: 76
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Jr Gargoyle_31
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 195
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Jr Gargoyle_32
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 101
+        width: 87
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Jr Gargoyle_33
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 101
+        width: 96
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Jr Gargoyle_34
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 188
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Jr Gargoyle_35
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 44
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Jr Gargoyle_36
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 44
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Jr Gargoyle_37
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 47
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Jr Gargoyle_38
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 44
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Jr Gargoyle_39
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 47
+        width: 33
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Jr Gargoyle_40
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 35
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Jr Gargoyle_41
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 28
+        width: 33
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Jr Gargoyle_42
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 28
+        width: 47
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Jr Gargoyle_43
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 28
+        width: 4
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Jr Gargoyle_44
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 28
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Jr Gargoyle_45
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 28
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Jr Gargoyle_46
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 28
+        width: 28
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Jr Gargoyle_47
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 7
+        width: 38
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
