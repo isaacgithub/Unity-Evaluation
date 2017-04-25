@@ -1,0 +1,2506 @@
+fileFormatVersion: 2
+guid: 111b92ae67bb6304fb561940face6e05
+timeCreated: 1493085484
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Robot01_0
+    21300002: Robot01_1
+    21300004: Robot01_2
+    21300006: Robot01_3
+    21300008: Robot01_4
+    21300010: Robot01_5
+    21300012: Robot01_6
+    21300014: Robot01_7
+    21300016: Robot01_8
+    21300018: Robot01_9
+    21300020: Robot01_10
+    21300022: Robot01_11
+    21300024: Robot01_12
+    21300026: Robot01_13
+    21300028: Robot01_14
+    21300030: Robot01_15
+    21300032: Robot01_16
+    21300034: Robot01_17
+    21300036: Robot01_18
+    21300038: Robot01_19
+    21300040: Robot01_20
+    21300042: Robot01_21
+    21300044: Robot01_22
+    21300046: Robot01_23
+    21300048: Robot01_24
+    21300050: Robot01_25
+    21300052: Robot01_26
+    21300054: Robot01_27
+    21300056: Robot01_28
+    21300058: Robot01_29
+    21300060: Robot01_30
+    21300062: Robot01_31
+    21300064: Robot01_32
+    21300066: Robot01_33
+    21300068: Robot01_34
+    21300070: Robot01_35
+    21300072: Robot01_36
+    21300074: Robot01_37
+    21300076: Robot01_38
+    21300078: Robot01_39
+    21300080: Robot01_40
+    21300082: Robot01_41
+    21300084: Robot01_42
+    21300086: Robot01_43
+    21300088: Robot01_44
+    21300090: Robot01_45
+    21300092: Robot01_46
+    21300094: Robot01_47
+    21300096: Robot01_48
+    21300098: Robot01_49
+    21300100: Robot01_50
+    21300102: Robot01_51
+    21300104: Robot01_52
+    21300106: Robot01_53
+    21300108: Robot01_54
+    21300110: Robot01_55
+    21300112: Robot01_56
+    21300114: Robot01_57
+    21300116: Robot01_58
+    21300118: Robot01_59
+    21300120: Robot01_60
+    21300122: Robot01_61
+    21300124: Robot01_62
+    21300126: Robot01_63
+    21300128: Robot01_64
+    21300130: Robot01_65
+    21300132: Robot01_66
+    21300134: Robot01_67
+    21300136: Robot01_68
+    21300138: Robot01_69
+    21300140: Robot01_70
+    21300142: Robot01_71
+    21300144: Robot01_72
+    21300146: Robot01_73
+    21300148: Robot01_74
+    21300150: Robot01_75
+    21300152: Robot01_76
+    21300154: Robot01_77
+    21300156: Robot01_78
+    21300158: Robot01_79
+    21300160: Robot01_80
+    21300162: Robot01_81
+    21300164: Robot01_82
+    21300166: Robot01_83
+    21300168: Robot01_84
+    21300170: Robot01_85
+    21300172: Robot01_86
+    21300174: Robot01_87
+    21300176: Robot01_88
+    21300178: Robot01_89
+    21300180: Robot01_90
+    21300182: Robot01_91
+    21300184: Robot01_92
+    21300186: Robot01_93
+    21300188: Robot01_94
+    21300190: Robot01_95
+    21300192: Robot01_96
+    21300194: Robot01_97
+    21300196: Robot01_98
+    21300198: Robot01_99
+    21300200: Robot01_100
+    21300202: Robot01_101
+    21300204: Robot01_102
+    21300206: Robot01_103
+    21300208: Robot01_104
+    21300210: Robot01_105
+    21300212: Robot01_106
+    21300214: Robot01_107
+    21300216: Robot01_108
+    21300218: Robot01_109
+    21300220: Robot01_110
+    21300222: Robot01_111
+    21300224: Robot01_112
+    21300226: Robot01_113
+    21300228: Robot01_114
+    21300230: Robot01_115
+    21300232: Robot01_116
+    21300234: Robot01_117
+    21300236: Robot01_118
+    21300238: Robot01_119
+    21300240: Robot01_120
+    21300242: Robot01_121
+    21300244: Robot01_122
+    21300246: Robot01_123
+    21300248: Robot01_124
+    21300250: Robot01_125
+    21300252: Robot01_126
+    21300254: Robot01_127
+    21300256: Robot01_128
+    21300258: Robot01_129
+    21300260: Robot01_130
+    21300262: Robot01_131
+    21300264: Robot01_132
+    21300266: Robot01_133
+    21300268: Robot01_134
+    21300270: Robot01_135
+    21300272: Robot01_136
+    21300274: Robot01_137
+    21300276: Robot01_138
+    21300278: Robot01_139
+    21300280: Robot01_140
+    21300282: Robot01_141
+    21300284: Robot01_142
+    21300286: Robot01_143
+    21300288: Robot01_144
+    21300290: Robot01_145
+    21300292: Robot01_146
+    21300294: Robot01_147
+    21300296: Robot01_148
+    21300298: Robot01_149
+    21300300: Robot01_150
+    21300302: Robot01_151
+    21300304: Robot01_152
+    21300306: Robot01_153
+    21300308: Robot01_154
+    21300310: Robot01_155
+    21300312: Robot01_156
+    21300314: Robot01_157
+    21300316: Robot01_158
+    21300318: Robot01_159
+    21300320: Robot01_160
+    21300322: Robot01_161
+    21300324: Robot01_162
+    21300326: Robot01_163
+    21300328: Robot01_164
+    21300330: Robot01_165
+    21300332: Robot01_166
+    21300334: Robot01_167
+    21300336: Robot01_168
+    21300338: Robot01_169
+    21300340: Robot01_170
+    21300342: Robot01_171
+    21300344: Robot01_172
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Robot01_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2113
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 1, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_1
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 2113
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 1, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_2
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 2113
+        width: 55
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_3
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 2113
+        width: 55
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_4
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 2113
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_5
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 2113
+        width: 58
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_6
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 2113
+        width: 61
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_7
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 2113
+        width: 65
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_8
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 2113
+        width: 66
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_9
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 2113
+        width: 67
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_10
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 2113
+        width: 68
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_11
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 2113
+        width: 62
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_12
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 2113
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_13
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2049
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_14
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 2049
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_15
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 2049
+        width: 62
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_16
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 2049
+        width: 69
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_17
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 2049
+        width: 68
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_18
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 2049
+        width: 61
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_19
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 1903
+        width: 311
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_20
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1973
+        width: 68
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_21
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1973
+        width: 59
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_22
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 1973
+        width: 43
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_23
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1973
+        width: 112
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_24
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 1974
+        width: 100
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_25
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 1974
+        width: 65
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_26
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1907
+        width: 68
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_27
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1903
+        width: 68
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_28
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1899
+        width: 36
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_29
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1899
+        width: 53
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_30
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 1904
+        width: 66
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_31
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 1902
+        width: 65
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_32
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 1900
+        width: 35
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_33
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1900
+        width: 54
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_34
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 1933
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_35
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 1933
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_36
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1811
+        width: 54
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_37
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 1821
+        width: 61
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_38
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 1827
+        width: 59
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_39
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 1831
+        width: 132
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_40
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 1826
+        width: 66
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_41
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 1824
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_42
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 1811
+        width: 56
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_43
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1744
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_44
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 1744
+        width: 240
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_45
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1671
+        width: 56
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_46
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 1671
+        width: 66
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_47
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 1671
+        width: 66
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_48
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 1671
+        width: 120
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_49
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1671
+        width: 71
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_50
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 1671
+        width: 52
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_51
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1591
+        width: 111
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_52
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 1596
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_53
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 1603
+        width: 70
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_54
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1603
+        width: 68
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_55
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1593
+        width: 48
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_56
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1591
+        width: 54
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_57
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1526
+        width: 70
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_58
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1521
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_59
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1525
+        width: 54
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_60
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1527
+        width: 63
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_61
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1460
+        width: 84
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_62
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 1460
+        width: 82
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_63
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 1453
+        width: 63
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_64
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1396
+        width: 57
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_65
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 1396
+        width: 62
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_66
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1396
+        width: 50
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_67
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1332
+        width: 51
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_68
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 1332
+        width: 158
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_69
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 1332
+        width: 101
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_70
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1332
+        width: 374
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_71
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1275
+        width: 641
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_72
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1105
+        width: 638
+        height: 169
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_73
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1049
+        width: 681
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_74
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 936
+        width: 638
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_75
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 821
+        width: 69
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_76
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 848
+        width: 636
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_77
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 750
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_78
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 750
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_79
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 750
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_80
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 750
+        width: 59
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_81
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 750
+        width: 74
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_82
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 750
+        width: 72
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_83
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 758
+        width: 14
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_84
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 750
+        width: 114
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_85
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 687
+        width: 62
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_86
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 687
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_87
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 687
+        width: 52
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_88
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 687
+        width: 55
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_89
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 687
+        width: 57
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_90
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 605
+        width: 53
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_91
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 608
+        width: 65
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_92
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 624
+        width: 61
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_93
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 626
+        width: 72
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_94
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 605
+        width: 64
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_95
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 609
+        width: 69
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_96
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 615
+        width: 68
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_97
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 620
+        width: 69
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_98
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 606
+        width: 69
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_99
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 602
+        width: 67
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_100
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 602
+        width: 68
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_101
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 489
+        width: 57
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_102
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 492
+        width: 59
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_103
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 479
+        width: 67
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_104
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 504
+        width: 59
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_105
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 487
+        width: 68
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_106
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 521
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_107
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 503
+        width: 61
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_108
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 528
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_109
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 509
+        width: 57
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_110
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 510
+        width: 62
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_111
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 494
+        width: 108
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_112
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 493
+        width: 54
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_113
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 493
+        width: 55
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_114
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 490
+        width: 65
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_115
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 521
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_116
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 485
+        width: 68
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_117
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 512
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_118
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 497
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_119
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 482
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_120
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 488
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_121
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 489
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_122
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 495
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_123
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 489
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_124
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 481
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_125
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 403
+        width: 68
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_126
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 403
+        width: 68
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_127
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 403
+        width: 68
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_128
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 403
+        width: 68
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_129
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 403
+        width: 68
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_130
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 403
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_131
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 403
+        width: 68
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_132
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 403
+        width: 68
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_133
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 403
+        width: 68
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_134
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 403
+        width: 68
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_135
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 403
+        width: 68
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_136
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 327
+        width: 53
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_137
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 387
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_138
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 382
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_139
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 327
+        width: 51
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_140
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 327
+        width: 51
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_141
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 327
+        width: 52
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_142
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 327
+        width: 52
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_143
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 327
+        width: 54
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_144
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 327
+        width: 56
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_145
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 327
+        width: 52
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_146
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 261
+        width: 53
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_147
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 255
+        width: 58
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_148
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 255
+        width: 59
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_149
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 253
+        width: 46
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_150
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 265
+        width: 56
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_151
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 182
+        width: 57
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_152
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 181
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_153
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 191
+        width: 56
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_154
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 180
+        width: 100
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_155
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 194
+        width: 66
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_156
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 78
+        width: 290
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_157
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 141
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_158
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 142
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_159
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 141
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_160
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 140
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_161
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 138
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_162
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 78
+        width: 69
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_163
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 78
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_164
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 78
+        width: 46
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_165
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 78
+        width: 69
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_166
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 78
+        width: 69
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_167
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 78
+        width: 69
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_168
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 78
+        width: 64
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_169
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 9
+        width: 73
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_170
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 9
+        width: 71
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_171
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 8
+        width: 101
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Robot01_172
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 2114
+        width: 54
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
