@@ -7,32 +7,60 @@ public class SlotMachine : MonoBehaviour {
 	public GameObject slot01;
 	public GameObject slot02;
 	public GameObject slot03;
-	public static Vector3 result;
+	public Vector3 result;
 	public bool machineStart = false;
 	public bool stopOn = false;
+
+	public GameObject Player;
+	public int playerNumber;
+	public static int turn = 1;
+	public ButtonMachine button;
+	public TextMesh turnName;
+	public bool firstTurn = true;
+
+	public float maxUp;
+	public float minDown;
+
+	public float[] mapSlot;
+
 	// Use this for initialization
 	void Start () {
 		machineStart = false;
 	}
 	
 	// Update is called once per frame
-	void Update () {
-		if (Input.GetKeyDown (KeyCode.S) && !machineStart) {
+	void FixedUpdate () {
+		if (button.buttonOn && !machineStart) {
 			startMachine ();
 			machineStart = true;
 		}
-		if (Input.GetKeyDown (KeyCode.P) && machineStart && !stopOn) {
+		if (button.buttonOff && machineStart && !stopOn) {
 			stopMachine ();
 			stopOn = true;
 		}
+
+		if (turn == playerNumber)
+			upMachine ();
+		else { 
+			downMachine ();
+			firstTurn = false;
+		}
+	}
+
+	void upMachine(){
+		if(transform.position.y < maxUp)
+			transform.Translate (0, 0.1f, 0);
+	}
+
+	void downMachine(){
+		if(transform.position.y > minDown)
+			transform.Translate (0, -0.1f, 0);
 	}
 
 	void startMachine(){
-		for (int i = 0; i < 3; i++) {
-			slot01.transform.GetChild (i).GetComponent<JackPot> ().stopMachine = false;
-			slot02.transform.GetChild (i).GetComponent<JackPot> ().stopMachine = false;
-			slot03.transform.GetChild (i).GetComponent<JackPot> ().stopMachine = false;
-		}
+		slot01.GetComponent<Slot> ().stopMachine = false;
+		slot02.GetComponent<Slot> ().stopMachine = false;
+		slot03.GetComponent<Slot> ().stopMachine = false;
 	}
 
 	void stopMachine(){
@@ -45,45 +73,54 @@ public class SlotMachine : MonoBehaviour {
 	}
 
 	void stopSlot01(){
-		stopSlot (slot01, (int)result.x);
+		Material currentMaterial = slot01.GetComponent<Renderer>().material;
+		slot01.GetComponent<Slot> ().stopMachine = true;
+		currentMaterial.SetTextureOffset ("_MainTex", new Vector2 (0, mapSlot[(int)result.x]));
 	}
 
 	void stopSlot02(){
-		stopSlot (slot02, (int)result.y);
+		Material currentMaterial = slot02.GetComponent<Renderer>().material;
+		slot02.GetComponent<Slot> ().stopMachine = true;
+		currentMaterial.SetTextureOffset ("_MainTex", new Vector2 (0, mapSlot[(int)result.y]));
 	}
 
 	void stopSlot03(){
-		stopSlot (slot03, (int)result.z);
+		Material currentMaterial = slot03.GetComponent<Renderer>().material;
+		slot03.GetComponent<Slot> ().stopMachine = true;
+		currentMaterial.SetTextureOffset ("_MainTex", new Vector2 (0, mapSlot[(int)result.z]));
+
 		machineStart = false;
 		stopOn = false;
+
+		Invoke ("battleStart", 0.2f);
+
+		Player.transform.GetChild ((int)result.x).GetComponent<Monster> ().active = true;
+		Player.transform.GetChild ((int)result.y).GetComponent<Monster> ().active = true;
+		Player.transform.GetChild ((int)result.z).GetComponent<Monster> ().active = true;
 	}
 
-	void stopSlot(GameObject slot, int result){
-		for (int i = 0; i < 3; i++) {
-			slot.transform.GetChild (i).GetComponent<JackPot> ().stopMachine = true;
+	private List<Monster> monsters;
+	void battleStart(){
+		Monster[] allMonsters = Resources.FindObjectsOfTypeAll<Monster>();
+		monsters = new List<Monster> ();
+		foreach(Monster m in allMonsters){
+			if (m.active) {
+				monsters.Add (m);
+			}
 		}
-		if (result == 0) {
-			slot.transform.GetChild (0).transform.localPosition = new Vector3 (0, 0, 0);
-			slot.transform.GetChild (1).transform.localPosition = new Vector3 (0, 1.23f, 0);
-			slot.transform.GetChild (2).transform.localPosition = new Vector3 (0, -1.095f, 0);
-			slot.transform.GetChild (0).GetComponent<SpriteRenderer> ().enabled = true;
-			slot.transform.GetChild (1).GetComponent<SpriteRenderer> ().enabled = false;
-			slot.transform.GetChild (2).GetComponent<SpriteRenderer> ().enabled = false;
-		}else if (result == 1) {
-			slot.transform.GetChild (0).transform.localPosition = new Vector3 (0, 1.23f, 0);
-			slot.transform.GetChild (1).transform.localPosition = new Vector3 (0, 0, 0);
-			slot.transform.GetChild (2).transform.localPosition = new Vector3 (0, -1.095f, 0);
-			slot.transform.GetChild (0).GetComponent<SpriteRenderer> ().enabled = false;
-			slot.transform.GetChild (1).GetComponent<SpriteRenderer> ().enabled = true;
-			slot.transform.GetChild (2).GetComponent<SpriteRenderer> ().enabled = false;
-		}if (result == 2) {
-			slot.transform.GetChild (0).transform.localPosition = new Vector3 (0, -1.095f, 0);
-			slot.transform.GetChild (1).transform.localPosition = new Vector3 (0, 1.23f, 0);
-			slot.transform.GetChild (2).transform.localPosition = new Vector3 (0, 0, 0);
-			slot.transform.GetChild (0).GetComponent<SpriteRenderer> ().enabled = false;
-			slot.transform.GetChild (1).GetComponent<SpriteRenderer> ().enabled = false;
-			slot.transform.GetChild (2).GetComponent<SpriteRenderer> ().enabled = true;
+		if (!firstTurn) {
+			foreach (Monster m in monsters) {
+				m.battleFase = true;
+			}
 		}
+		Invoke ("changeTurn", 1f);
 
+	}
+
+	void changeTurn(){
+		turn++;
+		if (turn > 2) {
+			turn = 1;
+		}
 	}
 }
