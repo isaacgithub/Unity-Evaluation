@@ -18,8 +18,11 @@ public class AtackHit : MonoBehaviour {
 		move = move.normalized;
 		transform.Translate (move.x * 0.4f, move.y * 0.4f, 0);
 		if (Vector3.Distance (transform.position, destiny) < 1f) {
-			if(enemyDamage.GetComponent<Monster> ())
+			if (enemyDamage.GetComponent<Monster> ())
 				enemyDamage.GetComponent<Monster> ().takeDamage (damage);
+			else if (enemyDamage.GetComponent<Boss> ()) {
+				enemyDamage.GetComponent<Boss> ().takeDamage(damage);
+			}
 			Destroy (gameObject);
 		}
 	}

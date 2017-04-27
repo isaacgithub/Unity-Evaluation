@@ -53,6 +53,8 @@ public class Monster : MonoBehaviour {
 		popUp.transform.position = transform.position;
 		popUp.GetComponent<TextMesh> ().text = damage.ToString ();
 		hp -= damage;
+		GetComponent<Animator> ().SetBool ("hit", true);
+		Invoke ("desactiveHit", 0.2f);
 		if (hp <= 0) {
 			GameObject death = Instantiate (deathAnimation);
 			death.transform.position = transform.position;
@@ -60,6 +62,10 @@ public class Monster : MonoBehaviour {
 			hp = defaultHp;
 			active = false;
 		}
+	}
+
+	void desactiveHit(){
+		GetComponent<Animator> ().SetBool ("hit", false);
 	}
 
 	int activeEnemy(){
