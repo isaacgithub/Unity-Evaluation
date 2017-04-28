@@ -25,6 +25,7 @@ public class SlotMachine : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		turn = 1;
 		machineStart = false;
 	}
 	

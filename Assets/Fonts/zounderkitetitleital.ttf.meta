@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 52fef054f41fdf740ab8442f46384f5d
+timeCreated: 1493336637
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Zounderkite Title Italic
+  fontNames:
+  - Zounderkite Title Italic
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
