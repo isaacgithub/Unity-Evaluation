@@ -27,15 +27,17 @@ public class Monster : MonoBehaviour {
 	
 	// Update is called once per frame
 	void FixedUpdate () {
-		if (active && transform.localPosition.x < maxStep) {
-			GetComponent<Animator> ().SetBool ("run", true);
-			transform.Translate (speed, 0, 0);
-		} else {
-			GetComponent<Animator> ().SetBool ("run", false);
-		}
-		if (battleFase) {
-			Invoke ("battle", 1);
-			battleFase = false;
+		if (!SlotMachine.endGame) {
+			if (active && transform.localPosition.x < maxStep) {
+				GetComponent<Animator> ().SetBool ("run", true);
+				transform.Translate (speed, 0, 0);
+			} else {
+				GetComponent<Animator> ().SetBool ("run", false);
+			}
+			if (battleFase) {
+				Invoke ("battle", 1);
+				battleFase = false;
+			}
 		}
 	}
 
@@ -53,8 +55,7 @@ public class Monster : MonoBehaviour {
 		popUp.transform.position = transform.position;
 		popUp.GetComponent<TextMesh> ().text = damage.ToString ();
 		hp -= damage;
-		GetComponent<Animator> ().SetBool ("hit", true);
-		Invoke ("desactiveHit", 0.2f);
+		GetComponent<Animator> ().Play ("Hit");
 		if (hp <= 0) {
 			GameObject death = Instantiate (deathAnimation);
 			death.transform.position = transform.position;
@@ -62,10 +63,6 @@ public class Monster : MonoBehaviour {
 			hp = defaultHp;
 			active = false;
 		}
-	}
-
-	void desactiveHit(){
-		GetComponent<Animator> ().SetBool ("hit", false);
 	}
 
 	int activeEnemy(){
@@ -79,7 +76,6 @@ public class Monster : MonoBehaviour {
 			return enemysToAtk [Random.Range (0, enemysToAtk.Count)];
 		else
 			return -1;
-		return -1;
 	}
 
 	void atkBoss(){

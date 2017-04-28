@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 28dc08cbb65a0d2418f671eebe6c3222
+timeCreated: 1493364804
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Supersonic Rocketship
+  fontNames:
+  - Supersonic Rocketship
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

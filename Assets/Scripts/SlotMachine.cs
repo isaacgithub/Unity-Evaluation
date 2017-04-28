@@ -10,6 +10,7 @@ public class SlotMachine : MonoBehaviour {
 	public Vector3 result;
 	public bool machineStart = false;
 	public bool stopOn = false;
+	public string identify;
 
 	public GameObject Player;
 	public int playerNumber;
@@ -17,6 +18,7 @@ public class SlotMachine : MonoBehaviour {
 	public ButtonMachine button;
 	public TextMesh turnName;
 	public bool firstTurn = true;
+	public static bool endGame = false;
 
 	public float maxUp;
 	public float minDown;
@@ -26,25 +28,28 @@ public class SlotMachine : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		turn = 1;
+		endGame = false;
 		machineStart = false;
 	}
 	
 	// Update is called once per frame
 	void FixedUpdate () {
-		if (button.buttonOn && !machineStart) {
-			startMachine ();
-			machineStart = true;
-		}
-		if (button.buttonOff && machineStart && !stopOn) {
-			stopMachine ();
-			stopOn = true;
-		}
+		if (!endGame) {
+			if (button.buttonOn && !machineStart) {
+				startMachine ();
+				machineStart = true;
+			}
+			if (button.buttonOff && machineStart && !stopOn) {
+				stopMachine ();
+				stopOn = true;
+			}
 
-		if (turn == playerNumber)
-			upMachine ();
-		else { 
-			downMachine ();
-			firstTurn = false;
+			if (turn == playerNumber)
+				upMachine ();
+			else { 
+				downMachine ();
+				firstTurn = false;
+			}
 		}
 	}
 
@@ -95,9 +100,25 @@ public class SlotMachine : MonoBehaviour {
 
 		Invoke ("battleStart", 0.2f);
 
-		Player.transform.GetChild ((int)result.x).GetComponent<Monster> ().active = true;
-		Player.transform.GetChild ((int)result.y).GetComponent<Monster> ().active = true;
-		Player.transform.GetChild ((int)result.z).GetComponent<Monster> ().active = true;
+		if (identify == "SlotSummon") {
+			Player.transform.GetChild ((int)result.x).GetComponent<Monster> ().active = true;
+			Player.transform.GetChild ((int)result.y).GetComponent<Monster> ().active = true;
+			Player.transform.GetChild ((int)result.z).GetComponent<Monster> ().active = true;
+		} else if (identify == "SlotAtk") {
+			waitAtksX ();
+		}
+	}
+
+	void waitAtksX(){
+		Player.GetComponent<Boss> ().attack ((int)result.x);
+		Invoke ("waitAtksY", 0.5f);
+	}
+	void waitAtksY(){
+		Player.GetComponent<Boss> ().attack ((int)result.y);
+		Invoke ("waitAtksZ", 0.5f);
+	}
+	void waitAtksZ(){
+		Player.GetComponent<Boss> ().attack ((int)result.z);
 	}
 
 	private List<Monster> monsters;
