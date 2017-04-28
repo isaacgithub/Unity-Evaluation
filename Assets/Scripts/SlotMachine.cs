@@ -135,12 +135,15 @@ public class SlotMachine : MonoBehaviour {
 				m.battleFase = true;
 			}
 		}
+
 		Invoke ("changeTurn", 1f);
 
 	}
 
 	void changeTurn(){
 		turn++;
+		if (turn == 2)
+			ButtonMachine.startIA = true;
 		if (turn > 2) {
 			turn = 1;
 		}
