@@ -7,10 +7,10 @@ public class IAControl : MonoBehaviour {
 	public static bool startIA = false;
 	public ChangeMachine bChange;
 	public ButtonMachine buttonSummon;
-	public ButtonMachine buttonSummonAtk;
+	public ButtonMachine buttonAtk;
+	public ButtonMachine buttonDef;
 	public GameObject player2;
 	private int currentMachine = 1;
-
 	// Use this for initialization
 	void Start () {
 		startIA = false;
@@ -25,14 +25,34 @@ public class IAControl : MonoBehaviour {
 				if (player2.transform.GetChild (i).GetComponent<Monster> ().active)
 					contMonster++;
 			}
-			if (contMonster >= 2 && currentMachine == 1) {
-				Invoke ("IAPressButtonChange", 1);
-			} else if (contMonster < 2 && currentMachine == 2) {
-				Invoke ("IAPressButtonChange", 1);
-			} else {
-				Invoke ("IAPressButton", 1);
+			if (contMonster == 2) {
+				if (currentMachine == 1)
+					Invoke ("IAPressButtonChange", 1);
+				else if (currentMachine == 3) {
+					Invoke ("IAPressButtonChange", 1);
+					Invoke ("IAPressButtonChange", 1);
+				} else {
+					Invoke ("IAPressButton", 1);
+				} 
+			}else if(contMonster == 3){
+				if (currentMachine == 1) {
+					Invoke ("IAPressButtonChange", 1);
+					Invoke ("IAPressButtonChange", 1);
+				} else if (currentMachine == 2) {
+					Invoke ("IAPressButtonChange", 1);
+				} else {
+					Invoke ("IAPressButton", 1);
+				}
+			}else if (contMonster < 2) {
+				if (currentMachine == 2) {
+					Invoke ("IAPressButtonChange", 1);
+					Invoke ("IAPressButtonChange", 1);
+				} else if (currentMachine == 3) {
+					Invoke ("IAPressButtonChange", 1);
+				} else {
+					Invoke ("IAPressButton", 1);
+				}
 			}
-
 		}
 	}
 
@@ -40,7 +60,9 @@ public class IAControl : MonoBehaviour {
 		if(currentMachine == 1)
 			buttonSummon.OnMouseDown ();
 		else if(currentMachine == 2)
-			buttonSummonAtk.OnMouseDown ();
+			buttonAtk.OnMouseDown ();
+		else  if(currentMachine == 3)
+			buttonDef.OnMouseDown ();
 		Invoke ("IAStopButton", 1);
 	}
 
@@ -48,13 +70,15 @@ public class IAControl : MonoBehaviour {
 		if(currentMachine == 1)
 			buttonSummon.OnMouseDown ();
 		else if(currentMachine == 2)
-			buttonSummonAtk.OnMouseDown ();
+			buttonAtk.OnMouseDown ();
+		else if(currentMachine == 3)
+			buttonDef.OnMouseDown ();
 	}
 
+
 	void IAPressButtonChange(){
-		if (currentMachine == 1)
-			currentMachine = 2;
-		else
+		currentMachine++;
+		if (currentMachine > 3)
 			currentMachine = 1;
 		startIA = true;
 		bChange.OnMouseDown ();

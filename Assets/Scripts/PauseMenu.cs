@@ -9,15 +9,18 @@ public class PauseMenu : MonoBehaviour {
 	private bool inPause  = false;
 	public float max, min;
 	public GameObject gray;
+	public static bool pausedGame = false;
 	// Use this for initialization
 	void Start () {
 		inPause = false;
+		pausedGame = false;
 		startPosition = transform.position;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetKeyDown (KeyCode.P)) {
+		if (Input.GetKeyDown (KeyCode.P) || PauseMenu.pausedGame) {
+			PauseMenu.pausedGame = false;
 			inPause = !inPause;
 		}
 		if (inPause) {

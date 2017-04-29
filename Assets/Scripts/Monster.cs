@@ -11,6 +11,7 @@ public class Monster : MonoBehaviour {
 
 	public Vector3 startPosition;
 	public bool active;
+	public bool shield;
 	public float speed;
 	public float maxStep;
 	public bool battleFase;
@@ -22,6 +23,7 @@ public class Monster : MonoBehaviour {
 
 	public GameObject[] enemys;
 	public GameObject boss;
+	public GameObject shieldAnimation;
 	// Use this for initialization
 	void Start () {
 		defaultHp = hp;
@@ -57,7 +59,7 @@ public class Monster : MonoBehaviour {
 	public void takeDamage(int damage){
 		GameObject popUp = Instantiate (danoPopUp);
 		popUp.transform.position = transform.position;
-		popUp.GetComponent<TextMesh> ().text = damage.ToString ();
+		popUp.GetComponent<TextMesh> ().text = "-"+damage.ToString ();
 		hp -= damage;
 		GetComponent<Animator> ().Play ("Hit");
 		if (hp <= 0) {
@@ -132,11 +134,11 @@ public class Monster : MonoBehaviour {
 	}
 
 	void addXP(){
-		popUp ("+1XP");
+		popUp ("+1XP", Color.white);
 	}
 
 	public void raiseLevel(){
-		popUp ("Level Up!");
+		popUp ("Level Up!", Color.white);
 		level++;
 		if (level == 2) {
 			atk += 200;
@@ -151,10 +153,11 @@ public class Monster : MonoBehaviour {
 		atualizarHUD ();
 	}
 
-	void popUp(string value){
+	void popUp(string value, Color color){
 		GameObject popUp = Instantiate (danoPopUp);
 		popUp.transform.position = transform.position;
 		popUp.GetComponent<TextMesh> ().text = value;
+		popUp.GetComponent<TextMesh> ().color = color;
 	}
 
 	void atualizarHUD(){
@@ -162,8 +165,37 @@ public class Monster : MonoBehaviour {
 	}
 
 	public void raiseHp(int hpRaise){
-		popUp ("HP+"+hpRaise);
+		popUp ("+"+hpRaise, Color.green);
 		hp += hpRaise;
+	}
+
+	public void activeShield(int value){
+		if (!shield) {
+			shield = true;
+			GameObject s = Instantiate (shieldAnimation);
+			s.transform.position = transform.position;
+			s.name = "Shield";
+			s.transform.parent = transform;
+			if (value >= 2) {
+				transform.FindChild ("Shield").transform.GetChild (1).GetComponent<SpriteRenderer> ().enabled = true;
+			}
+			if (value >= 3) {
+				transform.FindChild ("Shield").transform.GetChild (2).GetComponent<SpriteRenderer> ().enabled = true;
+			}
+		}
+	}
+
+	public void desactiveShield(){
+		if (shield) {
+			if (transform.FindChild ("Shield").transform.GetChild (2).GetComponent<SpriteRenderer> ().enabled)
+				transform.FindChild ("Shield").transform.GetChild (2).GetComponent<SpriteRenderer> ().enabled = false;
+			else if (transform.FindChild ("Shield").transform.GetChild (1).GetComponent<SpriteRenderer> ().enabled)
+				transform.FindChild ("Shield").transform.GetChild (1).GetComponent<SpriteRenderer> ().enabled = false;
+			else {
+				Destroy (transform.FindChild ("Shield").gameObject);
+				shield = false;
+			}
+		}
 	}
 
 }

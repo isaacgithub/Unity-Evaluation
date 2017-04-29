@@ -19,10 +19,19 @@ public class AtackHit : MonoBehaviour {
 		transform.Translate (move.x * 0.4f, move.y * 0.4f, 0);
 		if (!SlotMachine.endGame) {
 			if (Vector3.Distance (transform.position, destiny) < 1f) {
-				if (enemyDamage.GetComponent<Monster> ())
-					enemyDamage.GetComponent<Monster> ().takeDamage (damage);
+				if (enemyDamage.GetComponent<Monster> ()) {
+					Monster m = enemyDamage.GetComponent<Monster> ();
+					if (!m.shield)
+						m.takeDamage (damage);
+					else
+						m.desactiveShield ();
+				}
 				else if (enemyDamage.GetComponent<Boss> ()) {
-					enemyDamage.GetComponent<Boss> ().takeDamage (damage);
+					Boss b = enemyDamage.GetComponent<Boss> ();
+					if (!b.shield)
+						b.takeDamage (damage);
+					else
+						b.desactiveShield ();
 				}
 				Destroy (gameObject);
 			}

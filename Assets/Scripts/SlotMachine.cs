@@ -101,37 +101,11 @@ public class SlotMachine : MonoBehaviour {
 		Invoke ("battleStart", 0.2f);
 
 		if (identify == "SlotSummon") {
-			Monster m1 = Player.transform.GetChild ((int)result.x).GetComponent<Monster> ();
-			Monster m2 = Player.transform.GetChild ((int)result.y).GetComponent<Monster> ();
-			Monster m3 = Player.transform.GetChild ((int)result.z).GetComponent<Monster> ();
-
-			if (m1 != m2 && m1 != m3 && m2 != m3) { // All Different
-				activeMonster (m1, 400, 0);
-				activeMonster (m2, 400, 0);
-				activeMonster (m3, 400, 0);
-			}
-
-			if (m1 == m2 && m2 == m3) { // All the same
-				activeMonster (m1, 800, 2);
-			}
-
-			if (m1 == m2 && m2 != m3) { // m1 == m2 and m2 != m3
-				activeMonster (m1, 600, 1);
-				activeMonster (m3, 400, 0);
-			}
-
-			if (m1 != m2 && m2 == m3) { // m1 != m2 and m2 == m3
-				activeMonster (m1, 400, 0);
-				activeMonster (m2, 600, 1);
-			}
-
-			if (m1 != m2 && m1 == m3) { // m1 != m2 and m1 == m3
-				activeMonster (m1, 600, 1);
-				activeMonster (m2, 400, 0);
-			}
-
+			summon ();
 		} else if (identify == "SlotAtk") {
 			waitAtksX ();
+		} else if (identify == "SlotDef") {
+			defense ();
 		}
 	}
 
@@ -157,6 +131,89 @@ public class SlotMachine : MonoBehaviour {
 		Player.GetComponent<Boss> ().attack ((int)result.z);
 	}
 
+	void summon(){
+		Monster m1 = Player.transform.GetChild ((int)result.x).GetComponent<Monster> ();
+		Monster m2 = Player.transform.GetChild ((int)result.y).GetComponent<Monster> ();
+		Monster m3 = Player.transform.GetChild ((int)result.z).GetComponent<Monster> ();
+
+		if (m1 != m2 && m1 != m3 && m2 != m3) { // All Different
+			activeMonster (m1, 400, 0);
+			activeMonster (m2, 400, 0);
+			activeMonster (m3, 400, 0);
+		}
+
+		if (m1 == m2 && m2 == m3) { // All the same
+			activeMonster (m1, 800, 2);
+		}
+
+		if (m1 == m2 && m2 != m3) { // m1 == m2 and m2 != m3
+			activeMonster (m1, 600, 1);
+			activeMonster (m3, 400, 0);
+		}
+
+		if (m1 != m2 && m2 == m3) { // m1 != m2 and m2 == m3
+			activeMonster (m1, 400, 0);
+			activeMonster (m2, 600, 1);
+		}
+
+		if (m1 != m2 && m1 == m3) { // m1 != m2 and m1 == m3
+			activeMonster (m1, 600, 1);
+			activeMonster (m2, 400, 0);
+		}
+	}
+
+	void defense(){
+		int m1 = (int)result.x;
+		int m2 = (int)result.y;
+		int m3 = (int)result.z;
+
+		if (m1 != m2 && m1 != m3 && m2 != m3) { // All Different
+			activeDefense (m1, 1);
+			activeDefense (m2, 1);
+			activeDefense (m3, 1);
+		}
+
+		if (m1 == m2 && m2 == m3) { // All the same
+			activeDefense (m1, 3);
+		}
+
+		if (m1 == m2 && m2 != m3) { // m1 == m2 and m2 != m3
+			activeDefense (m1, 2);
+			activeDefense (m3, 1);
+		}
+
+		if (m1 != m2 && m2 == m3) { // m1 != m2 and m2 == m3
+			activeDefense (m1, 1);
+			activeDefense (m2, 2);
+		}
+
+		if (m1 != m2 && m1 == m3) { // m1 != m2 and m1 == m3
+			activeDefense (m1, 2);
+			activeDefense (m2, 1);
+		}
+	}
+
+	void activeDefense(int d, int value){
+		Monster[] monsters = Player.transform.GetComponentsInChildren<Monster> ();
+		if (d == 0) {
+			foreach (Monster m in monsters) {
+				if (m.active) {
+					m.activeShield (value);
+				}
+			}
+		}
+		if (d == 1) {
+			Player.GetComponent<Boss> ().activeShield (value);
+		}
+		if (d == 2) {
+			foreach (Monster m in monsters) {
+				if (m.active) {
+					m.raiseHp (500*value);
+				}
+			}
+		}
+	}
+
 	private List<Monster> monsters;
 	void battleStart(){
 		Monster[] allMonsters = Resources.FindObjectsOfTypeAll<Monster>();
@@ -178,8 +235,9 @@ public class SlotMachine : MonoBehaviour {
 
 	void changeTurn(){
 		turn++;
-		if (turn == 2)
+		if (turn == 2) {
 			IAControl.startIA = true;
+		}
 		if (turn > 2) {
 			turn = 1;
 		}
