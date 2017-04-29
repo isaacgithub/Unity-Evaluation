@@ -6,6 +6,9 @@ public class Monster : MonoBehaviour {
 
 	public int hp;
 	public int atk;
+	public int level = 1;
+	public int exp = 0;
+
 	public Vector3 startPosition;
 	public bool active;
 	public float speed;
@@ -23,6 +26,7 @@ public class Monster : MonoBehaviour {
 	void Start () {
 		defaultHp = hp;
 		startPosition = transform.localPosition;
+		atualizarHUD ();
 	}
 	
 	// Update is called once per frame
@@ -57,12 +61,31 @@ public class Monster : MonoBehaviour {
 		hp -= damage;
 		GetComponent<Animator> ().Play ("Hit");
 		if (hp <= 0) {
-			GameObject death = Instantiate (deathAnimation);
-			death.transform.position = transform.position;
-			transform.localPosition = startPosition;
-			hp = defaultHp;
-			active = false;
+			deathMonster ();
 		}
+		atualizarHUD ();
+	}
+
+	void deathMonster(){
+		GameObject death = Instantiate (deathAnimation);
+		death.transform.position = transform.position;
+		transform.localPosition = startPosition;
+		hp = defaultHp;
+		active = false;
+		exp = 0;
+		level = 1;
+		transform.FindChild ("Stars").transform.GetChild (1).GetComponent<SpriteRenderer> ().enabled = false;
+		transform.FindChild ("Stars").transform.GetChild (2).GetComponent<SpriteRenderer> ().enabled = false;
+		if (playerNumber == 2) {
+			ScoreControl scr = GameObject.Find ("ScoreControl").GetComponent<ScoreControl> ();
+			scr.score+= 10;
+			scr.scoreTxt.text = "Score: " + scr.score;
+			if (scr.score > PlayerPrefs.GetInt ("HighScore")) {
+				PlayerPrefs.SetInt ("HighScore", scr.score);
+				scr.highScore.text = "High Score: " + scr.score;
+			}
+		}
+
 	}
 
 	int activeEnemy(){
@@ -88,6 +111,7 @@ public class Monster : MonoBehaviour {
 	}
 
 	void atkEnemy(int enemy){
+		Invoke ("raiseExp", 1);
 		GameObject enemyToAtk = enemys [enemy];
 		GameObject hit = Instantiate (atackHit);
 		hit.transform.position = transform.position;
@@ -98,5 +122,48 @@ public class Monster : MonoBehaviour {
 			enemyToAtk.GetComponent<Monster> ().active = false;
 	}
 
+	void raiseExp(){
+		exp += 1;
+		Invoke ("addXP", 1);
+		if (exp % 3 == 0) {
+			raiseLevel ();
+		}
+
+	}
+
+	void addXP(){
+		popUp ("+1XP");
+	}
+
+	public void raiseLevel(){
+		popUp ("Level Up!");
+		level++;
+		if (level == 2) {
+			atk += 200;
+			hp += 1000;
+			transform.FindChild ("Stars").transform.GetChild (1).GetComponent<SpriteRenderer> ().enabled = true;
+		}
+		if (level == 3) {
+			atk += 300;
+			hp += 2000;
+			transform.FindChild ("Stars").transform.GetChild (2).GetComponent<SpriteRenderer> ().enabled = true;
+		}
+		atualizarHUD ();
+	}
+
+	void popUp(string value){
+		GameObject popUp = Instantiate (danoPopUp);
+		popUp.transform.position = transform.position;
+		popUp.GetComponent<TextMesh> ().text = value;
+	}
+
+	void atualizarHUD(){
+		transform.FindChild ("Window").transform.GetChild (0).GetComponent<TextMesh> ().text = atk + "/" + hp;
+	}
+
+	public void raiseHp(int hpRaise){
+		popUp ("HP+"+hpRaise);
+		hp += hpRaise;
+	}
 
 }

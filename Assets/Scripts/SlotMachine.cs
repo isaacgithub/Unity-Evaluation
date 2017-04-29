@@ -101,11 +101,47 @@ public class SlotMachine : MonoBehaviour {
 		Invoke ("battleStart", 0.2f);
 
 		if (identify == "SlotSummon") {
-			Player.transform.GetChild ((int)result.x).GetComponent<Monster> ().active = true;
-			Player.transform.GetChild ((int)result.y).GetComponent<Monster> ().active = true;
-			Player.transform.GetChild ((int)result.z).GetComponent<Monster> ().active = true;
+			Monster m1 = Player.transform.GetChild ((int)result.x).GetComponent<Monster> ();
+			Monster m2 = Player.transform.GetChild ((int)result.y).GetComponent<Monster> ();
+			Monster m3 = Player.transform.GetChild ((int)result.z).GetComponent<Monster> ();
+
+			if (m1 != m2 && m1 != m3 && m2 != m3) { // All Different
+				activeMonster (m1, 400, 0);
+				activeMonster (m2, 400, 0);
+				activeMonster (m3, 400, 0);
+			}
+
+			if (m1 == m2 && m2 == m3) { // All the same
+				activeMonster (m1, 800, 2);
+			}
+
+			if (m1 == m2 && m2 != m3) { // m1 == m2 and m2 != m3
+				activeMonster (m1, 600, 1);
+				activeMonster (m3, 400, 0);
+			}
+
+			if (m1 != m2 && m2 == m3) { // m1 != m2 and m2 == m3
+				activeMonster (m1, 400, 0);
+				activeMonster (m2, 600, 1);
+			}
+
+			if (m1 != m2 && m1 == m3) { // m1 != m2 and m1 == m3
+				activeMonster (m1, 600, 1);
+				activeMonster (m2, 400, 0);
+			}
+
 		} else if (identify == "SlotAtk") {
 			waitAtksX ();
+		}
+	}
+
+	void activeMonster(Monster m, int gainHp, int raiseL){
+		if (m.active) {
+			m.raiseHp (gainHp);
+		}else {
+			m.active = true;
+			for(int i=0;i<raiseL;i++)
+				m.raiseLevel ();
 		}
 	}
 
@@ -143,7 +179,7 @@ public class SlotMachine : MonoBehaviour {
 	void changeTurn(){
 		turn++;
 		if (turn == 2)
-			ButtonMachine.startIA = true;
+			IAControl.startIA = true;
 		if (turn > 2) {
 			turn = 1;
 		}

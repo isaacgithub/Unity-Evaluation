@@ -27,5 +27,7 @@ public class AtackHit : MonoBehaviour {
 				Destroy (gameObject);
 			}
 		}
+		if (SlotMachine.endGame)
+			Destroy (gameObject);
 	}
 }
