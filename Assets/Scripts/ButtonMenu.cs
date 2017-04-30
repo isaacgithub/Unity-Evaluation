@@ -6,9 +6,12 @@ using UnityEngine.SceneManagement;
 public class ButtonMenu : MonoBehaviour {
 
 	public PauseMenu menu;
+	public TextMesh high;
 	// Use this for initialization
 	void Start () {
 		Time.timeScale = 1;
+		if(name == "ShareHigh")
+			high.text = PlayerPrefs.GetInt ("HighScore").ToString();
 	
 	}
 	
@@ -36,6 +39,9 @@ public class ButtonMenu : MonoBehaviour {
 		}
 		if (name == "Pause") {
 			PauseMenu.pausedGame = true;
+		}
+		if (name == "ShareHigh") {
+			
 		}
 	}
 

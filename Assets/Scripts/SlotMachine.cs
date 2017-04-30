@@ -23,12 +23,15 @@ public class SlotMachine : MonoBehaviour {
 	public float maxUp;
 	public float minDown;
 
+	public static bool machineRun = false;
+
 	public float[] mapSlot;
 
 	// Use this for initialization
 	void Start () {
 		turn = 1;
 		endGame = false;
+		machineRun = false;
 		machineStart = false;
 	}
 	
@@ -234,7 +237,9 @@ public class SlotMachine : MonoBehaviour {
 	}
 
 	void changeTurn(){
+		Debug.Log ("Teste");
 		turn++;
+		ButtonMachine.contButtonClick = 0;
 		if (turn == 2) {
 			IAControl.startIA = true;
 		}
