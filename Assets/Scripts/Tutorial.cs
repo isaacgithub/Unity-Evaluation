@@ -68,12 +68,13 @@ public class Tutorial : MonoBehaviour {
 			msg.fontSize = fontSizeDefault;
 		}
 		if (clicks == 6) {
-			SlotMachine.startGame = true;
 			Destroy (hand.gameObject);
 			msg.text = "Go!";
 			msg.fontSize = fontSizeDefault;
+		}
+		if (clicks == 7) {
+			SlotMachine.startGame = true;
 			Destroy (gameObject);
-			msg.fontSize = fontSizeDefault;
 		}
 		button.transform.localScale = new Vector3 (button.transform.localScale.x / 1.1f, button.transform.localScale.y / 1.1f, button.transform.localScale.z / 1.3f);
 		clicks++;
