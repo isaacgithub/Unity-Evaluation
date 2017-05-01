@@ -30,20 +30,21 @@ public class ChangeMachine : MonoBehaviour {
 	}
 
 	public void OnMouseDown(){
-		if (ButtonMachine.contButtonClick == 0) {
-			if (!SlotMachine.endGame) {
-				transform.localScale = new Vector3 (transform.localScale.x / 1.3f, transform.localScale.y / 1.3f, transform.localScale.z / 1.3f);
-				Invoke ("defaultSize", 0.1f);
-				machines [machineNow].transform.position = positionOff;
-				machines [machineNow].transform.FindChild ("ButtonMachine").GetComponent<ButtonMachine> ().buttonActive = false;
-				machineNow++;
-				if (machineNow > machines.Length - 1)
-					machineNow = 0;
-				machines [machineNow].transform.position = positionOn;
-				machines [machineNow].transform.FindChild ("ButtonMachine").GetComponent<ButtonMachine> ().buttonActive = true;
+		if (SlotMachine.startGame) {
+			if (ButtonMachine.contButtonClick == 0) {
+				if (!SlotMachine.endGame) {
+					transform.localScale = new Vector3 (transform.localScale.x / 1.3f, transform.localScale.y / 1.3f, transform.localScale.z / 1.3f);
+					Invoke ("defaultSize", 0.1f);
+					machines [machineNow].transform.position = positionOff;
+					machines [machineNow].transform.FindChild ("ButtonMachine").GetComponent<ButtonMachine> ().buttonActive = false;
+					machineNow++;
+					if (machineNow > machines.Length - 1)
+						machineNow = 0;
+					machines [machineNow].transform.position = positionOn;
+					machines [machineNow].transform.FindChild ("ButtonMachine").GetComponent<ButtonMachine> ().buttonActive = true;
+				}
 			}
 		}
-
 	}
 
 	void defaultSize(){

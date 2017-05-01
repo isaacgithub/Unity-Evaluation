@@ -37,11 +37,10 @@ public class ButtonMenu : MonoBehaviour {
 		if (name == "ExitGame") {
 			Application.Quit ();
 		}
-		if (name == "Pause") {
-			PauseMenu.pausedGame = true;
-		}
-		if (name == "ShareHigh") {
-			
+		if (SlotMachine.startGame) {
+			if (name == "Pause") {
+				PauseMenu.pausedGame = true;
+			}
 		}
 	}
 

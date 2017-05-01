@@ -11,6 +11,7 @@ public class SlotMachine : MonoBehaviour {
 	public bool machineStart = false;
 	public bool stopOn = false;
 	public string identify;
+	public static bool startGame = false;
 
 	public GameObject Player;
 	public int playerNumber;

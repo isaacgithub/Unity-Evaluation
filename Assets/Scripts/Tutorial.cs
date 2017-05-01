@@ -61,11 +61,10 @@ public class Tutorial : MonoBehaviour {
 			msg.fontSize = fontSizeDefault;
 		}
 		if (clicks == 6) {
+			SlotMachine.startGame = true;
 			Destroy (hand.gameObject);
 			msg.text = "Go!";
 			msg.fontSize = fontSizeDefault;
-		}
-		if (clicks == 7) {
 			Destroy (gameObject);
 			msg.fontSize = fontSizeDefault;
 		}

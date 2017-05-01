@@ -27,18 +27,20 @@ public class ButtonMachine : MonoBehaviour {
 	}
 
 	public void OnMouseDown(){
-		if (contButtonClick < 2) {
-			contButtonClick++;
-			SlotMachine.machineRun = true;
-			if (SlotMachine.turn == machine.playerNumber) {
-				transform.localScale = new Vector3 (transform.localScale.x / 1.3f, transform.localScale.y / 1.3f, transform.localScale.z / 1.3f);
-				buttonOn = !buttonOn;
-				buttonOff = !buttonOff;
-				if (!buttonOff)
-					GetComponent<SpriteRenderer> ().color = Color.green;
-				else
-					GetComponent<SpriteRenderer> ().color = Color.white;
-				Invoke ("defaultSize", 0.1f);
+		if (SlotMachine.startGame) {
+			if (contButtonClick < 2) {
+				contButtonClick++;
+				SlotMachine.machineRun = true;
+				if (SlotMachine.turn == machine.playerNumber) {
+					transform.localScale = new Vector3 (transform.localScale.x / 1.3f, transform.localScale.y / 1.3f, transform.localScale.z / 1.3f);
+					buttonOn = !buttonOn;
+					buttonOff = !buttonOff;
+					if (!buttonOff)
+						GetComponent<SpriteRenderer> ().color = Color.green;
+					else
+						GetComponent<SpriteRenderer> ().color = Color.white;
+					Invoke ("defaultSize", 0.1f);
+				}
 			}
 		}
 	}
