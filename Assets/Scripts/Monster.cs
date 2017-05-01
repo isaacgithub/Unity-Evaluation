@@ -64,7 +64,9 @@ public class Monster : MonoBehaviour {
 		hp -= damage;
 		GetComponent<Animator> ().Play ("Hit");
 		if (hp <= 0) {
-			deathMonster ();
+			active = false;
+			hp = 0;
+			Invoke("deathMonster", 1);
 		}
 		atualizarHUD ();
 	}
@@ -74,7 +76,6 @@ public class Monster : MonoBehaviour {
 		death.transform.position = transform.position;
 		transform.localPosition = startPosition;
 		hp = defaultHp;
-		active = false;
 		exp = 0;
 		level = 1;
 		transform.FindChild ("Stars").transform.GetChild (1).GetComponent<SpriteRenderer> ().enabled = false;
@@ -88,7 +89,7 @@ public class Monster : MonoBehaviour {
 				scr.highScore.text = "High Score: " + scr.score;
 			}
 		}
-
+		atualizarHUD ();
 	}
 
 	int activeEnemy(){
@@ -133,7 +134,7 @@ public class Monster : MonoBehaviour {
 		if (exp % 3 == 0) {
 			raiseLevel ();
 		}
-
+		atualizarHUD ();
 	}
 
 	void addXP(){
@@ -170,6 +171,7 @@ public class Monster : MonoBehaviour {
 	public void raiseHp(int hpRaise){
 		popUp ("+"+hpRaise, Color.green);
 		hp += hpRaise;
+		atualizarHUD ();
 	}
 
 	public void activeShield(int value){

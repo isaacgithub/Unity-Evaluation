@@ -42,6 +42,14 @@ public class ButtonMenu : MonoBehaviour {
 				PauseMenu.pausedGame = true;
 			}
 		}
+		if (name == "Music") {
+			AudioSource m = GameObject.Find ("MusicScene").GetComponent<AudioSource> ();
+			if (m.isPlaying)
+				m.Stop ();
+			else 
+				m.Play ();
+
+		}
 	}
 
 }
