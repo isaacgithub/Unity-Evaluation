@@ -11,11 +11,11 @@ public class Botao_rodar : MonoBehaviour {
 	// Use this for initialization
 	void Start () 
 	{
-		#if UNITY_ANDROID && !UNITY_EDITOR
+		/*#if UNITY_ANDROID && !UNITY_EDITOR
 		//send notification here
 		AndroidJavaObject ajc = new AndroidJavaObject("com.zeljkosassets.notifications.Notifier");
 		ajc.CallStatic("sendNotification", "Unity Evaluation", "Unity Evaluation", "Unity Evaluation", 5);
-		#endif
+		#endif*/
 		clicou = false;
 	}
 	

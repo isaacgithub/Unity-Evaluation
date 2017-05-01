@@ -10,13 +10,14 @@ public class ButtonMachine : MonoBehaviour {
 	public SlotMachine machine;
 	public bool buttonActive = false;
 	public static int contButtonClick = 0;
+	public AudioSource audio;
 
 	// Use this for initialization
 	void Start () {
 		buttonOn = false;
 		buttonOff = true;
 		contButtonClick = 0;
-
+		audio = GameObject.Find ("AudioMachine").GetComponent<AudioSource> ();
 		startSize = transform.localScale;
 	}
 	
@@ -29,6 +30,7 @@ public class ButtonMachine : MonoBehaviour {
 	public void OnMouseDown(){
 		if (SlotMachine.startGame) {
 			if (contButtonClick < 2) {
+				audio.Play ();
 				contButtonClick++;
 				SlotMachine.machineRun = true;
 				if (SlotMachine.turn == machine.playerNumber) {

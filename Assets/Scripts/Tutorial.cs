@@ -10,12 +10,18 @@ public class Tutorial : MonoBehaviour {
 	private Vector3 startSize;
 	public GameObject button;
 	public int fontSizeDefault;
+	public AudioSource audio;
 
 	public Transform[] transfoms;
 	// Use this for initialization
 	void Start () {
 		startSize = button.transform.localScale;
+		audio = GameObject.Find ("AudioClick").GetComponent<AudioSource> ();
 		fontSizeDefault = msg.fontSize;
+		if (SlotMachine.startGame) {
+			Destroy (hand.gameObject);
+			Destroy (gameObject);
+		}
 	}
 	
 	// Update is called once per frame
@@ -24,6 +30,7 @@ public class Tutorial : MonoBehaviour {
 	}
 
 	void OnMouseDown(){
+		audio.Play ();
 		if (clicks == 0) {
 			hand.transform.position = new Vector3(transfoms [clicks].position.x, transfoms [clicks].position.y, hand.transform.position.z) + new Vector3(0,1.5f,0);
 			msg.text = "Change Machine:"+"\n\n"+"- Summon machine"+"\n"+"-Offensive machine"+"\n"+"-Defensive machine";

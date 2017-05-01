@@ -6,7 +6,7 @@ public class HandTutor : MonoBehaviour {
 
 	public float speed;
 	public float k = 0;
-	public TextMesh msg;
+
 	// Use this for initialization
 	void Start () {
 		

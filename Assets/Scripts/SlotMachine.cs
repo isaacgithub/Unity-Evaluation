@@ -12,7 +12,6 @@ public class SlotMachine : MonoBehaviour {
 	public bool stopOn = false;
 	public string identify;
 	public static bool startGame = false;
-
 	public GameObject Player;
 	public int playerNumber;
 	public static int turn = 1;
@@ -238,7 +237,6 @@ public class SlotMachine : MonoBehaviour {
 	}
 
 	void changeTurn(){
-		Debug.Log ("Teste");
 		turn++;
 		ButtonMachine.contButtonClick = 0;
 		if (turn == 2) {

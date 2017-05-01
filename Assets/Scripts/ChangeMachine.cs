@@ -10,12 +10,14 @@ public class ChangeMachine : MonoBehaviour {
 	public Vector3 positionOn;
 	private Vector3 startSize;
 	public int playerNumber;
+	public AudioSource audio;
 
 	public float maxUp;
 	public float minDown;
 	// Use this for initialization
 	void Start () {
 		startSize = transform.localScale;
+		audio = GameObject.Find ("AudioClick").GetComponent<AudioSource> ();
 	}
 	
 	// Update is called once per frame
@@ -32,6 +34,7 @@ public class ChangeMachine : MonoBehaviour {
 	public void OnMouseDown(){
 		if (SlotMachine.startGame) {
 			if (ButtonMachine.contButtonClick == 0) {
+				audio.Play ();
 				if (!SlotMachine.endGame) {
 					transform.localScale = new Vector3 (transform.localScale.x / 1.3f, transform.localScale.y / 1.3f, transform.localScale.z / 1.3f);
 					Invoke ("defaultSize", 0.1f);

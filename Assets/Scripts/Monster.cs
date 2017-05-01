@@ -20,7 +20,7 @@ public class Monster : MonoBehaviour {
 	public GameObject deathAnimation;
 	public int playerNumber;
 	public GameObject atackHit;
-
+	public AudioSource audio;
 	public GameObject[] enemys;
 	public GameObject boss;
 	public GameObject shieldAnimation;
@@ -29,6 +29,7 @@ public class Monster : MonoBehaviour {
 		defaultHp = hp;
 		startPosition = transform.localPosition;
 		atualizarHUD ();
+		audio = GameObject.Find ("Shoot").GetComponent<AudioSource> ();
 	}
 	
 	// Update is called once per frame
@@ -104,6 +105,7 @@ public class Monster : MonoBehaviour {
 	}
 
 	void atkBoss(){
+		audio.Play ();
 		GameObject hit = Instantiate (atackHit);
 		hit.transform.position = transform.position;
 		hit.GetComponent<AtackHit> ().destiny = boss.transform.position;
@@ -113,6 +115,7 @@ public class Monster : MonoBehaviour {
 	}
 
 	void atkEnemy(int enemy){
+		audio.Play ();
 		Invoke ("raiseExp", 1);
 		GameObject enemyToAtk = enemys [enemy];
 		GameObject hit = Instantiate (atackHit);
